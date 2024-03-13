@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* outer circle design */
+.container .outer {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 50s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 92%;
+    left: 43%;
+}
+
+.google img {
+    width: 100%;
+    height: 100%;
+    animation: antiClockwise 50s linear infinite;
+}
+
+.meta {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 70%;
+    left: 86%;
+}
+
+.meta img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    animation: antiClockwise 50s linear infinite;
+}
+
+.netflix {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 70%;
+    left: 3%;
+}
+
+.netflix img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    animation: antiClockwise 50s linear infinite;
+}
+
+.microsoft {
+    position: absolute;
+    height: 125px;
+    width: 145px;
+    top: -16%;
+    left: 34%;
+}
+
+.microsoft img {
+    width: 100%;
+    height: 100%;
+    animation: antiClockwise 50s linear infinite;
+}
+
+.aws {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 20%;
+    left: -1%;
+}
+
+.aws img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    animation: antiClockwise 50s linear infinite;
+}
+
+.docker {
+    position: absolute;
+    height: 65px;
+    width: 80px;
+    top: 18%;
+    left: 84%;
+}
+
+.docker img {
+    width: 100%;
+    height: 100%;
+    animation: antiClockwise 50s linear infinite;
+}
+
+
+/* middle circle design */
+.middle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color:rgba(187, 187, 179, 0.933);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* inner circle design */
+.inner {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    border-radius:50%;
+    animation: antiClockwise 25s linear infinite;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.python {
+    position: absolute;
+    height: 70px;
+    width: 80px;
+    top: -16%;
+    left: 30%;
+}
+
+.python img {
+    width: 100%;
+    height: 100%;
+    animation: rotate 50s linear infinite;
+}
+
+.django {
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    top: 87%;
+    left: 38%;
+}
+
+.django img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    animation: rotate 50s linear infinite;
+}
+
+.js {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 40%;
+    left: -9%;
+}
+
+.js img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    animation: rotate 50s linear infinite;
+}
+
+.react {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 40%;
+    left: 89%;
+}
+
+.react img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    animation: rotate 50s linear infinite;
+}
+
+/* center circle design */
+.center {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.center img {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50%;
+    animation: rotate 50s linear infinite;
+}
+
+
+
+
+
+/* animation for outer circle */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes antiClockwise {
+    from {
+            transform: rotate(0deg);
+        }
+    
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
