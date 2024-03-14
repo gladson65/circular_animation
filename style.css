@@ -27,9 +27,9 @@
 
 .google {
     position: absolute;
-    height: 60px;
-    width: 60px;
-    top: 92%;
+    height: 55px;
+    width: 55px;
+    top: 93%;
     left: 43%;
 }
 
@@ -41,10 +41,10 @@
 
 .meta {
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     top: 70%;
-    left: 86%;
+    left: 87%;
 }
 
 .meta img {
@@ -56,8 +56,8 @@
 
 .netflix {
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     top: 70%;
     left: 3%;
 }
@@ -71,9 +71,9 @@
 
 .microsoft {
     position: absolute;
-    height: 125px;
-    width: 145px;
-    top: -16%;
+    height: 113px;
+    width: 133px;
+    top: -14%;
     left: 34%;
 }
 
@@ -85,10 +85,10 @@
 
 .aws {
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     top: 20%;
-    left: -1%;
+    left: 2%;
 }
 
 .aws img {
@@ -98,15 +98,15 @@
     animation: antiClockwise 50s linear infinite;
 }
 
-.docker {
+.mailchimp {
     position: absolute;
-    height: 65px;
-    width: 80px;
+    height: 47px;
+    width: 47px;
     top: 18%;
-    left: 84%;
+    left: 86%;
 }
 
-.docker img {
+.mailchimp img {
     width: 100%;
     height: 100%;
     animation: antiClockwise 50s linear infinite;
@@ -118,7 +118,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-color:rgba(187, 187, 179, 0.933);
+    background-color:rgba(107, 254, 242, 0.775);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,9 +139,9 @@
 
 .python {
     position: absolute;
-    height: 70px;
-    width: 80px;
-    top: -16%;
+    height: 65px;
+    width: 68px;
+    top: -15%;
     left: 30%;
 }
 
@@ -153,9 +153,9 @@
 
 .django {
     position: absolute;
-    height: 35px;
-    width: 50px;
-    top: 87%;
+    height: 25px;
+    width: 40px;
+    top: 91%;
     left: 38%;
 }
 
@@ -168,10 +168,10 @@
 
 .js {
     position: absolute;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     top: 40%;
-    left: -9%;
+    left: -8%;
 }
 
 .js img {
@@ -183,10 +183,10 @@
 
 .react {
     position: absolute;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     top: 40%;
-    left: 89%;
+    left: 90%;
 }
 
 .react img {
@@ -216,7 +216,7 @@
 
 
 
-/* animation for outer circle */
+/* animation section */
 @keyframes rotate {
     from {
         transform: rotate(0deg);
