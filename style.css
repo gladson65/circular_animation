@@ -31,12 +31,14 @@
     width: 55px;
     top: 93%;
     left: 43%;
+    animation: spreadDown 2s linear infinite alternate;
 }
 
 .google img {
     width: 100%;
     height: 100%;
     animation: antiClockwise 50s linear infinite;
+    animation-fill-mode: both;
 }
 
 .meta {
@@ -45,6 +47,7 @@
     width: 40px;
     top: 70%;
     left: 87%;
+    animation: spread 2s linear infinite alternate;
 }
 
 .meta img {
@@ -52,6 +55,7 @@
     height: 100%;
     border-radius: 5px;
     animation: antiClockwise 50s linear infinite;
+    animation-fill-mode: both;
 }
 
 .netflix {
@@ -60,6 +64,7 @@
     width: 40px;
     top: 70%;
     left: 3%;
+    animation: spreadLeft 2s linear infinite alternate;
 }
 
 .netflix img {
@@ -67,6 +72,7 @@
     height: 100%;
     border-radius: 5px;
     animation: antiClockwise 50s linear infinite;
+    animation-fill-mode: both;
 }
 
 .microsoft {
@@ -75,12 +81,14 @@
     width: 133px;
     top: -14%;
     left: 34%;
+    animation: spreadUp 2s linear infinite alternate;
 }
 
 .microsoft img {
     width: 100%;
     height: 100%;
     animation: antiClockwise 50s linear infinite;
+    animation-fill-mode: both;
 }
 
 .aws {
@@ -89,6 +97,7 @@
     width: 40px;
     top: 20%;
     left: 2%;
+    animation: spreadLeft 2s linear infinite alternate;
 }
 
 .aws img {
@@ -96,6 +105,7 @@
     height: 100%;
     border-radius: 5px;
     animation: antiClockwise 50s linear infinite;
+    animation-fill-mode: both;
 }
 
 .mailchimp {
@@ -104,12 +114,14 @@
     width: 47px;
     top: 18%;
     left: 86%;
+    animation: spread 2s linear infinite alternate;
 }
 
 .mailchimp img {
     width: 100%;
     height: 100%;
     animation: antiClockwise 50s linear infinite;
+    animation-fill-mode: both;
 }
 
 
@@ -143,6 +155,7 @@
     width: 68px;
     top: -15%;
     left: 30%;
+    animation: spreadUp 2s linear infinite alternate;
 }
 
 .python img {
@@ -157,6 +170,7 @@
     width: 40px;
     top: 91%;
     left: 38%;
+    animation: spreadDown 2s linear infinite alternate;
 }
 
 .django img {
@@ -172,6 +186,7 @@
     width: 30px;
     top: 40%;
     left: -8%;
+    animation: spreadLeft 2s linear infinite alternate;
 }
 
 .js img {
@@ -187,6 +202,7 @@
     width: 30px;
     top: 40%;
     left: 90%;
+    animation: spread 2s linear infinite alternate;
 }
 
 .react img {
@@ -236,3 +252,41 @@
     }
 }
 
+
+/* spread animation section */
+@keyframes spread {
+    
+    100% {
+        transform: translateX(35px);
+    }
+}
+
+@keyframes spreadUp {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-35px);
+    }
+}
+
+@keyframes spreadLeft {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-35px);
+    }
+}
+
+@keyframes spreadDown {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(35px);
+    }
+}
